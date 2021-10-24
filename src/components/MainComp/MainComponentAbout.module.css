@@ -1,0 +1,69 @@
+.about {
+
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+[class*='col-'] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.rowBox {
+    height: 1200px;
+    background-image: url("https://themes.muffingroup.com/be/stylist/wp-content/uploads/2017/12/stylist-about-mainbg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+.allAbout {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    color: black;
+    margin-top: 25px;
+}
+.collXs12 {
+    flex: 0 0 100%;
+    min-width: 100%;
+}
+.containerBox {
+    padding-top:100px ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textBoxes{
+    margin-top: 70px;
+}
+.textBoxes:nth-child(1) >.textBox > span  {
+    font-size: 25px;
+    line-height: 30px;
+}
+.textBoxes:nth-child(2){
+    margin-left: 55%;
+}
+.textBoxes:nth-child(4){
+    margin-left: 55%;
+ }
+.textBox {
+    max-width: 400px;
+}
+.textBox > span {
+    line-height: 30px;
+}
+.textBox > h4{
+    margin-bottom: 30px;
+}
+

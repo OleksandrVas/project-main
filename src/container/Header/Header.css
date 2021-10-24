@@ -1,0 +1,162 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    overflow-x: hidden;
+    height: 1000px;
+    margin: 0;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+[class*='col-'] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-xs-12 {
+    flex: 0 0 100%;
+    min-width: 100%;
+}
+
+.col-xs-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-xs-7 {
+    flex: 0 0 58.3333333%;
+    max-width: 58.3333333%;
+}
+
+.col-xs-5 {
+    flex: 0 0 41.6666667%;
+    max-width: 41.6666667%;
+}
+.col-xs-8 {
+    flex: 0 0 66.6666667%;
+    max-width: 66.6666667%;
+}
+.col-xs-4 {
+    flex: 0 0 33.3333333%;
+    max-width: 33.3333333%;
+}
+
+
+/* header  ///////////////////////////////////////////////*/
+#root > #main-header {
+    position: relative;
+    padding-top: 50px;
+    background: url(./img/stylist-home-headerbg.jpg) 40% 60%;
+    height: 678px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#root > #main-header > .container {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.header-bottom-img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.burger-menu {
+    text-align: right;
+}
+
+.burger {
+    position: fixed;
+    height: 25px;
+    width: 30px;
+    right: 60px;
+    cursor: pointer;
+}
+
+.burger > span {
+    display: block;
+    width: 30px;
+    background-color: #fff;
+    height: 2px;
+    position: absolute;
+    transition: .15s ease-in-out;
+}
+
+.burger > span:nth-child(2) {
+    top: 9px;
+}
+
+.burger > span:last-child {
+    bottom: 5px;
+}
+
+/* menu //////////////////////////////////////////// */
+.menu {
+    margin-left: 130px;
+}
+
+.menu > ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+.menu > ul > li {
+    margin-left: 20px;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+/* menu //////////////////////////////////////////////// */
+
+
+.navigation {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    max-width: 280px;
+    transform: translateX(150%);
+    transition: all 500ms ease-in-out;
+}
+
+.active-menu > span:first-child {
+    top: 50%;
+    transform: rotate(45deg);
+}
+
+.active-menu > span:nth-child(2) {
+    top: 50%;
+    transform: rotate(-45deg);
+}
+
+.active-menu > span:last-child {
+    transform: scale(0);
+}

@@ -1,0 +1,22 @@
+/* footer /////////////////////////////// */
+#root > #footer {
+  border-top: 1px solid #1c1c1c;
+  background-color: black;
+}
+#root > #footer > .container > .row > .col-xs-10 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#root > #footer > .container > .row > .col-xs-10 > div {
+  color: #747474;
+  font-size: 14px;
+  margin-left: 30px;
+}
+#root > #footer > .container > .row > .col-xs-10 > div > span > a {
+  color: #747474;
+  text-decoration: none;
+}
+#root > #footer > .container > .row > .col-xs-10 > div > span > a:hover {
+  border-bottom: 1px solid white;
+  color: white;
+}
