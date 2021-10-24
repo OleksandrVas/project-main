@@ -557,6 +557,7 @@ body{
 }
 .sign-up-input {
     margin-top: 25px;
+    font-size: 20px;
     width: 100%;
     background-color: #1c1c1c;
     border: none;
