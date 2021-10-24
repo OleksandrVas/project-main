@@ -563,6 +563,7 @@ body{
     border: none;
     padding: 10px 10px;
     margin-bottom: 7px;
+    font-size: 18px;
 }
 .sign-up-input::placeholder{
     color: #747474;

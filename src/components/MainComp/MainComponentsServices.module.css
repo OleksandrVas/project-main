@@ -45,7 +45,62 @@
     background-size: 100%;
     background-attachment: fixed;
     display: flex;
+    position: relative;
 }
 .makeUp .box {
     margin-left: 37%;
+}
+.makeUp .box >h2 {
+    max-width: 300px;
+}
+.imgCosmetics {
+    width: 420px ;
+    top: 150px;
+    position: absolute;
+}
+/*//////////////////////////////////////////////*/
+/*consul*/
+.consul {
+    background-image: url(https://themes.muffingroup.com/be/stylist/wp-content/uploads/2017/12/stylist-offer-parallax3.jpg);
+    height: 789px;
+    background-position: 20% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+}
+
+/*thisIsHowIWork*/
+.thisIsHowIWork {
+    margin-top: 90px;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.thisIsHowIWork > h2 {
+    font-size: 30px;
+}
+.thisIsHowIWork > p {
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 25px;
+}
+.getContactBtn {
+    width: 190px;
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    margin-top: 25px;
+    border-top: 2px solid white;
+    margin-bottom: 90px;
+    border-bottom: 2px solid #747474;
+}
+.getContactBtn:hover {
+    border-top: 2px solid #747474;
+    transition: .4s;
+}
+.getContactBtn > a {
+    font-size: 17px;
+    font-weight: bolder;
 }
