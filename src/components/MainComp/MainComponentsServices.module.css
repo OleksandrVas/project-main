@@ -6,6 +6,13 @@
     background-size: 100%;
     background-attachment: fixed;
     display: flex;
+    position: relative;
+}
+.imgSrc {
+    position: absolute;
+    width: 420px;
+    top: 130px;
+    left: 310px;
 }
 .box {
     max-width: 350px;
@@ -16,13 +23,29 @@
     margin-bottom:20px;
 }
 .box > h2 {
-    max-width: 240px;
+    max-width: 220px;
     font-size: 33px;
     margin-bottom: 40px;
 
 }
 .box > p {
-    margin-top: 30px;
+    margin-top: 40px;
     line-height: 26px;
     font-weight: 100;
+    max-width: 310px;
+}
+/*//////////////////////////////////////////////*/
+/*Make up */
+
+.makeUp {
+    background-image: url(https://themes.muffingroup.com/be/stylist/wp-content/uploads/2017/12/stylist-offer-parallax2.jpg);
+    height: 789px;
+    background-position: 20% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+}
+.makeUp .box {
+    margin-left: 37%;
 }
