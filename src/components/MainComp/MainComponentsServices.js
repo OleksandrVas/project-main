@@ -86,7 +86,6 @@ const MainComponentServices = () => {
                                     <button className={classes.getContactBtn}><a>Contact me today</a></button>
                                 </div>
                             </div>
-
                         </div>
 
                     </div>
