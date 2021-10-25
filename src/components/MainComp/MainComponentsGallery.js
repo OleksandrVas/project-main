@@ -84,7 +84,31 @@ const MainComponentsGallery = () => {
 
 
                 </div>
-                <div className="col-xs-12"></div>
+                <div className="col-xs-12">
+                    <div className={classes.boxF} id={classes.thirdId}>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xs-6">
+                                    <div className={classes.boxInfo} id={classes.third}>
+                                        <GalleryBox
+                                            number="04"
+                                            text="Nunc id tellus finibus, eleifend mi vel, maximus justo. Maecenas mi tortor, pellentesque a aliquam ut, fringilla eleifend lectus."
+                                        />
+                                    </div>
+                                </div>
+                                <div className="col-xs-6">
+                                    <div className={classes.boxImg} id={classes.thirdImg}>
+                                        <img
+                                            src={"https://themes.muffingroup.com/be/stylist/wp-content/uploads/2017/12/stylist-home-girl3.jpg"}
+                                            className={classes.img}/></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
 
                 <div className="col-xs-12"></div>
                 <div className="col-xs-12"></div>

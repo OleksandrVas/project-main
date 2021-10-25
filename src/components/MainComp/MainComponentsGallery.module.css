@@ -56,8 +56,16 @@
     right: -50px;
 }
 #thirdId {
-    margin-top: 1100px;
+    margin-top: 270px;
 }
 #thirdImg > img {
     width: 400px;
+    right: 210px;
+}
+#third {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+#third > p {
+    margin-top: 50px;
 }
