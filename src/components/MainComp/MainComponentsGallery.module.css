@@ -1,29 +1,35 @@
 .gallery {
     background-color: black;
-    height: 3000px;
+    height: 3590px;
 }
-.boxImg{
+
+.boxImg {
     position: relative;
 }
-.boxF{
+
+.boxF {
     margin-top: 500px;
 }
+
 .img {
     width: 600px;
     right: 0px;
     position: absolute;
 }
+
 .boxInfo {
     margin-left: 50px;
     margin-top: 50px;
     max-width: 350px;
     color: white;
 }
-.boxInfo >h2 {
+
+.boxInfo > h2 {
     font-size: 13px;
     font-weight: bolder;
 }
-.boxInfo > p  {
+
+.boxInfo > p {
     line-height: 30px;
     font-size: 14px;
 }
@@ -34,49 +40,82 @@
     text-align: right;
     left: 300px;
 }
+
 #firstImg {
     right: 170px;
 }
+
 #firstImg > img {
     width: 500px;
 }
-#secondId{
+
+#secondId {
     margin-top: 1200px;
     margin-left: 500px;
 }
-#second{
+
+#second {
     max-width: 250px;
     margin-top: 150px;
 }
-#second >p {
+
+#second > p {
     margin-top: 50px;
 }
-#secondImg >img {
+
+#secondImg > img {
     width: 500px;
     right: -50px;
 }
+
 #thirdId {
     margin-top: 270px;
 }
+
 #thirdImg > img {
     width: 400px;
     right: 210px;
 }
+
 #third {
     margin-left: 150px;
     margin-top: 100px;
 }
+
 #third > p {
     margin-top: 50px;
 }
+
 #fouthId {
     margin-top: 100px;
 }
+
 #fouth {
     margin-top: 220px;
     margin-left: 80px;
+    max-width: 400px;
 }
+
 #fouthImg {
     width: 400px;
     right: 100px;
+}
+
+#fifthId {
+    margin-top: 200px;
+}
+
+#fifth {
+    margin-left: 450px;
+    max-width: 180px;
+    text-align: right;
+    font-size: 14px;
+}
+#fifth > p {
+    margin-top: 50px;
+}
+
+#fifthImg > img {
+    width: 400px;
+    left: 0px;
 }

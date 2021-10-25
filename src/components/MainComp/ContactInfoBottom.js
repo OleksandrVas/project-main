@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./../FooterComp/ChangeSize.module.css"
 const ContactInfoBottom = () => {
     return (
   <section id="contact-info-bottom">
@@ -40,6 +41,8 @@ const ContactInfoBottom = () => {
                     type="text"
                     placeholder="Type in your email "
                     className="sign-up-input"
+                    id={classes.changeSize}
+
                   />
                 </div>
                 <button className="subscribe-botton">Subscibe</button>

@@ -557,18 +557,21 @@ body{
 }
 .sign-up-input {
     margin-top: 25px;
-    font-size: 20px;
     width: 100%;
     background-color: #1c1c1c;
     border: none;
     padding: 10px 10px;
     margin-bottom: 7px;
-    font-size: 18px;
+
 }
+
 .sign-up-input::placeholder{
     color: #747474;
     font-size: 17px;
     font-weight: 500;
+}
+#changeSize {
+    font-size: 18px;
 }
 .subscribe-botton {
     width: 100%;

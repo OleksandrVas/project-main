@@ -122,7 +122,7 @@ const MainComponentsGallery = () => {
                                 <div className={classes.boxInfo} id={classes.fouth}>
                                     <GalleryBox
                                         number="05"
-                                        text="Duis dignissim mi ut laoreet mollis. Nunc id tellus finibus, eleifend mi vel, maximus justo. Maecenas mi tortor, pellentesque a aliquam ut, fringilla eleifend lectus."
+                                        text="Nunc id tellus finibus, eleifend mi vel, maximus justo. Maecenas mi tortor, pellentesque a aliquam ut, fringilla eleifend lectus."
                                     />
                                 </div>
 
@@ -132,10 +132,33 @@ const MainComponentsGallery = () => {
                     </div>
 
                 </div>
+                <div className="col-xs-12">
+                    <div className={classes.boxF} id={classes.fifthId}>
+                        <div className="container">
+                            <div className="row">
+
+                                <div className="col-xs-6">
+                                    <div className={classes.boxInfo} id={classes.fifth}>
+                                        <GalleryBox
+                                            number="06"
+                                            text="Nunc id tellus finibus, eleifend mi vel, maximus justo. Maecenas mi tortor, pellentesque a aliquam ut, fringilla eleifend lectus."
+                                        />
+                                    </div>
+
+                                </div>
+                                <div className="col-xs-6">
+                                    <div className={classes.boxImg} id={classes.fifthImg} >
+                                        <img
+                                            src={"https://themes.muffingroup.com/be/stylist/wp-content/uploads/2017/12/stylist-gallery-woman3.jpg"}
+                                            className={classes.img} /></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
-
-                <div className="col-xs-12"></div>
+                </div>
             </div>
         </>
     )
