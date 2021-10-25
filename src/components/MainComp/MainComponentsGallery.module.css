@@ -1,0 +1,62 @@
+.gallery {
+    background-color: black;
+    height: 3000px;
+}
+.boxImg{
+    position: relative;
+}
+.boxF{
+    margin-top: 500px;
+}
+.img {
+    width: 600px;
+    right: 0px;
+    position: absolute;
+}
+.boxInfo {
+    margin-left: 50px;
+    margin-top: 50px;
+    max-width: 350px;
+    color: white;
+}
+.boxInfo >h2 {
+    font-size: 13px;
+    font-weight: bolder;
+}
+.boxInfo > p  {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+#first {
+    position: absolute;
+    margin-top: 150px;
+    text-align: right;
+    left: 300px;
+}
+#firstImg {
+    right: 170px;
+}
+#firstImg > img {
+    width: 500px;
+}
+#secondId{
+    margin-top: 1100px;
+    margin-left: 500px;
+}
+#second{
+    max-width: 250px;
+    margin-top: 100px;
+}
+#second >p {
+    margin-top: 50px;
+}
+#secondImg >img {
+    width: 500px;
+}
+#thirdId {
+    margin-top: 1100px;
+}
+#thirdImg > img {
+    width: 400px;
+}
