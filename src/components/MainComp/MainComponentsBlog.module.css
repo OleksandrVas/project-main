@@ -1,0 +1,22 @@
+.blog {
+    height: 100%;
+
+}
+
+#blogCenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headForCenter {
+    text-align: center;
+}
+
+.headForCenter > div {
+    max-width: 300px;
+    font-size: 25px ;
+    margin: 50px auto;
+
+}

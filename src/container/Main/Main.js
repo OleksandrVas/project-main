@@ -5,6 +5,8 @@ import MainComponentAbout from "../../components/MainComp/MainComponentAbout";
 import {Route} from "react-router" ;
 import MainComponentsServices from "../../components/MainComp/MainComponentsServices";
 import MainComponentsGallery from "../../components/MainComp/MainComponentsGallery";
+import MainComponentsBlog from "../../components/MainComp/MainComponentsBlog";
+
 const Main = () => {
   return (
     <>
@@ -12,6 +14,7 @@ const Main = () => {
     <Route path="/About" component={MainComponentAbout} />
     <Route path="/Services" component={MainComponentsServices} />
     <Route path="/Gallery" component={MainComponentsGallery} />
+    <Route path="/Blog" component={MainComponentsBlog} />
     </>
   );
 };

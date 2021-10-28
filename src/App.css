@@ -28,6 +28,10 @@ body{
     flex: 0 0 100%;
     min-width: 100%;
 }
+.col-xs-9 {
+    flex: 0 0 75%;
+    min-width: 75%;
+}
 .col-xs-6 {
     flex: 0 0 50%;
     max-width: 50%;
@@ -470,12 +474,14 @@ body{
 .main-info-muffin-group{
     color: rgba(189, 148, 148, 0.767);
 }
+
 .main-info-muffin-group div span a {
     color: rgba(189, 148, 148, 0.767);
     text-decoration: none;
 }
 .main-info-muffin-group div span a:hover {
     color: rgb(185, 66, 66);
+    border-bottom: 1px solid white;
 }
 .display-for-flex  hr {
     margin-top: 15px;

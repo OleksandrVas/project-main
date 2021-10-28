@@ -1,0 +1,34 @@
+.blogCartView {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: -4px;
+}
+
+.blogCartView > img {
+    width: 100%;
+}
+.navBlogCart {
+    position: absolute;
+    bottom: 0;
+}
+
+.colXsSix {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+
+.navBlogCart {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.navLinkToGroup {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .7);
+}
+
+.cartHead {
+    margin-bottom: 30px;
+}
