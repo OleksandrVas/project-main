@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./BlogCart.module.css"
 import {NavLink} from "react-router-dom";
-import BlogCartArray from "./BlogCartArray";
+
 
 const BlogCart = ({img, groupOfCart, date, headerOfCart}) => {
     return (
@@ -12,13 +12,15 @@ const BlogCart = ({img, groupOfCart, date, headerOfCart}) => {
                         src={img}/>
                     <div className={classes.navBlogCart}>
                         <div className={classes.cartHead}>
+
                             <span><NavLink to="/Blog"
                                            className={classes.navLinkToGroup}>{groupOfCart}</NavLink> < /span>
-                            <span> {date}</span>
+                            <span className={classes.dateGroup}> at </span>
+                            <span className={classes.dateGroup}> {date}</span>
                         </div>
-                        <div>
-                            <NavLink to="/Blog" className={classes.navLink}>{headerOfCart}</NavLink>
-                            <hr/>
+                        <div className={classes.headOfNavLink}>
+                            <NavLink to="/Post" className={classes.navLinkInHeader}>{headerOfCart}</NavLink>
+                            <hr className={classes.hrBlogCart}/>
                         </div>
                     </div>
 

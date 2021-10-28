@@ -7,6 +7,27 @@
 .blogCartView > img {
     width: 100%;
 }
+
+.blogCartView:hover > img {
+    filter: brightness(0.6);
+    transition: 1s ease-in-out;
+}
+
+.hrBlogCart {
+    width: 0;
+    color: inherit;
+    height: 3px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.blogCartView:hover > .navBlogCart > div > .hrBlogCart {
+    width: 300px;
+    height: 3px;
+    transition: ease-in-out 0.5s;
+    background-color: white;
+}
+
 .navBlogCart {
     position: absolute;
     bottom: 0;
@@ -17,8 +38,6 @@
     max-width: 50%;
 }
 
-
-
 .navBlogCart {
     margin-left: 30px;
     margin-bottom: 30px;
@@ -26,9 +45,29 @@
 
 .navLinkToGroup {
     text-decoration: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, .7);
+    border-bottom: 0.6px white solid;
+}
+
+.navLinkToGroup:hover {
+    color: rgba(222, 212, 212, 0.7);
+    transition: 0.5s;
+}
+.navLinkInHeader {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+.headOfNavLink{
+    min-width: 400px;
+}
+.dateGroup {
     color: rgba(255, 255, 255, .7);
 }
 
 .cartHead {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
