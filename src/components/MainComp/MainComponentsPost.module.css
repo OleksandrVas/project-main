@@ -1,3 +1,7 @@
 .post{
-
+    height: 100%;
+}
+#cartToCenter {
+    margin-right: auto;
+    margin-left: auto;
 }

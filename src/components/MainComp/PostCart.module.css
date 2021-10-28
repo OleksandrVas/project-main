@@ -1,0 +1,48 @@
+.post {
+    margin-bottom: 70px;
+}
+#cartFlex {
+    display: flex;
+    margin-top: 70px ;
+}
+.postCart > .postText {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 40px;
+}
+.postNumber {
+    font-weight: bolder;
+    font-size: 15px;
+}
+#toCenter {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 510px;
+}
+.postText > h2 {
+    font-size: 25px;
+}
+.postImg {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.cartImg {
+    width: 100%;
+}
+.cartFlex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+#cartToLeft {
+    max-width:400px ;
+}
+#postToCenter {
+    align-items: center;
+    display: flex;
+}
+#postCartToRight {
+    text-align: right;
+    margin-left: 230px;
+}
