@@ -12,10 +12,14 @@ const PostCart = ({
                         <div className={classes.postCart}>
                             <div className={classes.postNumber}>01</div>
                             <div className={classes.postText}> Curabitur sed iaculis dolor, non congue ligula. Maecenas
-                                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue porta nibh a, semper feugiat
-                                sem. Sed auctor dui eleifend, scelerisque eros ut, pellentesque nibh. Nam lacinia suscipit
-                                accumsan. Donec sodales, neque vitae rutrum convallis, nulla tortor pharetra odio, in varius
-                                ante ante sed nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue porta nibh a, semper
+                                feugiat
+                                sem. Sed auctor dui eleifend, scelerisque eros ut, pellentesque nibh. Nam lacinia
+                                suscipit
+                                accumsan. Donec sodales, neque vitae rutrum convallis, nulla tortor pharetra odio, in
+                                varius
+                                ante ante sed nisi. Orci varius natoque penatibus et magnis dis parturient montes,
+                                nascetur
                                 ridiculus mus.
                             </div>
                         </div>
@@ -31,10 +35,14 @@ const PostCart = ({
                                 Pellentesque dolor. Mauris in est.
                             </div>
                             <div className={classes.postText}>Curabitur sed iaculis dolor, non congue ligula. Maecenas
-                                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue porta nibh a, semper feugiat
-                                sem. Sed auctor dui eleifend, scelerisque eros ut, pellentesque nibh. Nam lacinia suscipit
-                                accumsan. Donec sodales, neque vitae rutrum convallis, nulla tortor pharetra odio, in varius
-                                ante ante sed nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue porta nibh a, semper
+                                feugiat
+                                sem. Sed auctor dui eleifend, scelerisque eros ut, pellentesque nibh. Nam lacinia
+                                suscipit
+                                accumsan. Donec sodales, neque vitae rutrum convallis, nulla tortor pharetra odio, in
+                                varius
+                                ante ante sed nisi. Orci varius natoque penatibus et magnis dis parturient montes,
+                                nascetur
                                 ridiculus mus.
                             </div>
                         </div>
@@ -58,10 +66,14 @@ const PostCart = ({
                             </h2>
                             </div>
                             <div className={classes.postText}>Curabitur sed iaculis dolor, non congue ligula. Maecenas
-                                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue porta nibh a, semper feugiat
-                                sem. Sed auctor dui eleifend, scelerisque eros ut, pellentesque nibh. Nam lacinia suscipit
-                                accumsan. Donec sodales, neque vitae rutrum convallis, nulla tortor pharetra odio, in varius
-                                ante ante sed nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue porta nibh a, semper
+                                feugiat
+                                sem. Sed auctor dui eleifend, scelerisque eros ut, pellentesque nibh. Nam lacinia
+                                suscipit
+                                accumsan. Donec sodales, neque vitae rutrum convallis, nulla tortor pharetra odio, in
+                                varius
+                                ante ante sed nisi. Orci varius natoque penatibus et magnis dis parturient montes,
+                                nascetur
                                 ridiculus mus.
                             </div>
                         </div>
@@ -137,9 +149,24 @@ const PostCart = ({
 
                         </div>
                     </div>
+                    <div className="col-xs-12">
+                        <div className={classes.share}>
+                            <div className="col-xs-8">
+                                <div className={classes.netWork}>
+                                    <div>Share : </div>
+                                    <div> f</div>
+                                    <div>t</div>
+                                    <div>in</div>
+                                    <div>painter</div>
+                                </div>
+                            </div>
+                            <div className="col-xs-4">
+                                <div className={classes.likeCount}>Like Count !</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
 
 
         </>
