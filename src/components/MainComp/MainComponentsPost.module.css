@@ -5,3 +5,10 @@
     margin-right: auto;
     margin-left: auto;
 }
+.postImgToCenter {
+    max-width: 800px;
+    margin: 50px auto;
+}
+.postImgToCenter > img {
+    width: 100%;
+}

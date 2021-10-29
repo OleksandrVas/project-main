@@ -1,0 +1,30 @@
+.cartToFlex {
+    display: flex;
+    justify-content: center;
+    color: #e8d4ec;
+    font-size: 14px ;
+}
+.cartToFlex > div > a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #e8d4ec;
+}
+.imgToRadius {
+    border-radius: 8px;
+}
+#textCart {
+    position: absolute;
+    bottom: 50%;
+}
+.postCart {
+    position: relative;
+    text-align: center;
+}
+.textHeader {
+    font-size: 35px ;
+
+}
+.textHeader > a {
+    text-decoration: none;
+    color: white;
+}

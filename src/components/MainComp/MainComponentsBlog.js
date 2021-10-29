@@ -4,7 +4,7 @@ import BlogCart from "./BlogCart";
 import BlogCartArray from "./BlogCartArray";
 
 const MainComponentsBlog = () => {
-    console.log(BlogCartArray)
+
     const newBlogCartArray =
         BlogCartArray
             .map(cartArray => {
