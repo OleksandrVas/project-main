@@ -1,9 +1,11 @@
 import React from "react";
-const ButtonVievMoreInfo = () => {
-  return (
-    <>
-      <a href="">view more info</a>
-    </>
-  );
+import {NavLink} from "react-router-dom";
+
+const ButtonVievMoreInfo = ({link}) => {
+    return (
+        <>
+            <NavLink to={link}>view more info</NavLink>
+        </>
+    );
 };
 export default ButtonVievMoreInfo

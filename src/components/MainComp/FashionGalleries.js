@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 const FashionGalleries = () => {
     return (
 <>
@@ -29,7 +30,7 @@ const FashionGalleries = () => {
                   </div>
                   <div className="col-xs-12">
                     <div className="button-article      second">
-                      <a href="">see the gallery</a>
+                      <NavLink to="Gallery">see the gallery</NavLink>
                     </div>
                   </div>
                 </div>

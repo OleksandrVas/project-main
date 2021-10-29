@@ -4,6 +4,8 @@ import classes from "./PostCart.module.css";
 const PostCart = ({
                       number, text, img
                   }) => {
+
+
     return (
         <>
             <div className={classes.post}>
@@ -151,18 +153,18 @@ const PostCart = ({
                     </div>
                     <div className="col-xs-12">
                         <div className={classes.share}>
-                            <div className="col-xs-8">
+                            <div className="col-xs-12">
                                 <div className={classes.netWork}>
-                                    <div>Share : </div>
-                                    <div> f</div>
-                                    <div>t</div>
-                                    <div>in</div>
-                                    <div>painter</div>
+                                    <div>
+                                        Share :
+                                    </div>
+                                    <div><a href="http://facebook.com">Facebook</a></div>
+                                    <div><a href="http://instagram.com"> Instagram </a></div>
+                                    <div><a href="https://www.google.com.ua/?hl=ru">Google+</a></div>
+
                                 </div>
                             </div>
-                            <div className="col-xs-4">
-                                <div className={classes.likeCount}>Like Count !</div>
-                            </div>
+
                         </div>
                     </div>
                 </div>

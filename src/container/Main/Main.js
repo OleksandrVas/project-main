@@ -9,16 +9,16 @@ import MainComponentsBlog from "../../components/MainComp/MainComponentsBlog";
 import MainComponentsPost from "../../components/MainComp/MainComponentsPost";
 
 const Main = () => {
-  return (
-    <>
-    <Route path="/Home" component={MainComponents} />
-    <Route path="/About" component={MainComponentAbout} />
-    <Route path="/Services" component={MainComponentsServices} />
-    <Route path="/Gallery" component={MainComponentsGallery} />
-    <Route path="/Blog" component={MainComponentsBlog} />
-    <Route path="/Post" component={MainComponentsPost} />
-    </>
-  );
+    return (
+        <>
+            <Route path="/Home" component={MainComponents}/>
+            <Route path="/About" component={MainComponentAbout}/>
+            <Route path="/Services" component={MainComponentsServices}/>
+            <Route path="/Gallery" component={MainComponentsGallery}/>
+            <Route path="/Blog" component={MainComponentsBlog}/>
+            <Route path="/Post" component={MainComponentsPost}/>
+        </>
+    );
 };
 
 

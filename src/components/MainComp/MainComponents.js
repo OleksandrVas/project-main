@@ -14,4 +14,4 @@ const MainComponents = () => {
         </>
     )
 }
-export  default  MainComponents
+export default MainComponents

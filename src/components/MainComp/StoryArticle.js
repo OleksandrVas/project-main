@@ -86,7 +86,7 @@ const StoryArticle = () => {
                         </div>
                         <div className="col-xs-12">
                             <div className="button-article fifth-article-button">
-                                <ButtonVievMoreInfo/>
+                                <ButtonVievMoreInfo link={"Blog"}/>
                             </div>
                         </div>
                     </div>

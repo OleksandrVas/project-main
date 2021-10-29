@@ -2,6 +2,7 @@ import React from "react";
 import StylistHomeIcon from "./../../container/Main/Img/stylist-homeicon.png"
 import StylistHomeCabluck from "./../../container/Main/Img/stylist-home-cabluck.png";
 import StylistHomeShoe from "./../../container/Main/Img/stylist-home-shoe.png";
+import {NavLink} from "react-router-dom";
 const DoYouNeedStyle = () => {
     return (
       <>
@@ -14,7 +15,7 @@ const DoYouNeedStyle = () => {
               </div>
               <div className="col-xs-6">
                 <div className="button-article third-button-article ">
-                  <a href="">contact me today</a>
+                  <a href="https://www.instagram.com/?hl=ru">contact me today</a>
                 </div>
               </div>
             </div>
@@ -54,7 +55,7 @@ const DoYouNeedStyle = () => {
                     </div>
                   </div>
                   <div className="button-article style-button">
-                    <a href="">SEE ALL SERVICES</a>
+                    <NavLink to="Services">SEE ALL SERVICES</NavLink>
                   </div>
                 </div>
               </div>
