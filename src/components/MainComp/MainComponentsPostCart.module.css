@@ -1,4 +1,5 @@
 .cartToFlex {
+    margin-top: 30px ;
     display: flex;
     justify-content: center;
     color: #e8d4ec;
@@ -8,6 +9,10 @@
     text-decoration: none;
     margin-right: 30px;
     color: #e8d4ec;
+    border-bottom: 0.5px white dashed;
+}
+.dataGroup {
+    border-bottom:  0.5px white dashed ;
 }
 .imgToRadius {
     border-radius: 8px;
@@ -20,6 +25,11 @@
     position: relative;
     text-align: center;
 }
+.postCart:hover > div > img {
+    filter: brightness(0.6);
+    transition:all 1s ease-in-out ;
+}
+
 .textHeader {
     font-size: 35px ;
 
@@ -27,4 +37,8 @@
 .textHeader > a {
     text-decoration: none;
     color: white;
+}
+.textHeader > a:hover {
+    color: #beb4b4;
+    transition: 0.5s ;
 }

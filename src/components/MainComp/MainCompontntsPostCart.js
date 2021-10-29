@@ -15,9 +15,9 @@ const MainComponentsPostCart = ({img, dataGroup, textGroup, textHeader}) => {
                     </div>
                     <div className={classes.cartToFlex}>
                         <div>
-                        <NavLink to="/Blog"  >  {textGroup}</NavLink>
+                        <NavLink to="/Blog"  > {textGroup}</NavLink>
                         </div>
-                        <div >{dataGroup} </div>
+                        <div className={classes.dataGroup}>{dataGroup} </div>
                     </div>
                 </div>
 
