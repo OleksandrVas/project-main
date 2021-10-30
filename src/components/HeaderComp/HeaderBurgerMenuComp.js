@@ -8,7 +8,7 @@ const BurgerMenu = () => {
                 <div className="menu">
                     <ul>
                         <li>
-                            <NavLink to="/Home">Home</NavLink>
+                            <NavLink to="/">Home</NavLink>
                         </li>
                         <li><NavLink to="/About">About</NavLink></li>
                         <li><NavLink to="/Services">Services</NavLink></li>

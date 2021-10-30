@@ -11,12 +11,12 @@ import MainComponentsPost from "../../components/MainComp/MainComponentsPost";
 const Main = () => {
     return (
         <>
-            <Route path="/Home" component={MainComponents}/>
-            <Route path="/About" component={MainComponentAbout}/>
-            <Route path="/Services" component={MainComponentsServices}/>
-            <Route path="/Gallery" component={MainComponentsGallery}/>
-            <Route path="/Blog" component={MainComponentsBlog}/>
-            <Route path="/Post" component={MainComponentsPost}/>
+            <Route path="/" exact component={MainComponents}/>
+            <Route path="/About" exact component={MainComponentAbout}/>
+            <Route path="/Services" exact component={MainComponentsServices}/>
+            <Route path="/Gallery" exact component={MainComponentsGallery}/>
+            <Route path="/Blog" exact component={MainComponentsBlog}/>
+            <Route path="/Post" exact component={MainComponentsPost}/>
         </>
     );
 };
