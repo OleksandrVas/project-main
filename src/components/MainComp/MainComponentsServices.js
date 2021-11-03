@@ -3,6 +3,7 @@ import classes from "./MainComponentsServices.module.css" ;
 import BoxTextView from "./BoxTextView";
 
 
+
 const MainComponentServices = () => {
     return (
         <>
@@ -83,7 +84,9 @@ const MainComponentServices = () => {
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                                         doloremque
                                         laudantium.</p>
-                                    <button className={classes.getContactBtn}><a>Contact me today</a></button>
+                                    <button className={classes.getContactBtn}>
+                                        <a href="https://www.instagram.com/?hl=ru" >Contact me today</a>
+                                    </button>
                                 </div>
                             </div>
                         </div>

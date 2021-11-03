@@ -103,4 +103,9 @@
 .getContactBtn > a {
     font-size: 17px;
     font-weight: bolder;
+    text-decoration: none;
+    color: #747474;
+}
+.getContactBtn > a:hover {
+    color: #1c1c1c;
 }
