@@ -133,6 +133,13 @@ body {
     color: white;
     font-size: 25px;
 }
+.menu > ul > li > a:hover{
+    color: #f8d4d4;
+    transition: 0.2s;
+}
+.menu > ul > li > a:active {
+    color: red;
+}
 
 /* menu //////////////////////////////////////////////// */
 
